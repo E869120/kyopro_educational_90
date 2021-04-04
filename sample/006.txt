@@ -1,0 +1,39 @@
+# 入力形式
+S
+K
+
+----------
+
+# 入力例 1
+atcoder
+3
+
+# 出力例 1
+acd
+
+----------
+
+# 入力例 2
+competitiveprogramming
+5
+
+# 出力例 2
+aming
+
+----------
+
+# 入力例 3
+competitiveprogramming
+10
+
+# 出力例 3
+ceegamming
+
+----------
+
+# 入力例 4
+competitiveprogramming
+22
+
+# 出力例 4
+competitiveprogramming

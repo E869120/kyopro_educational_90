@@ -10,16 +10,16 @@ int Q;
 int B[100009];
 
 int main() {
-	// Step #1. 入力
+	// Step #1. Input
 	cin >> N;
 	for (int i = 1; i <= N; i++) cin >> A[i];
 	cin >> Q;
 	for (int i = 1; i <= Q; i++) cin >> B[i];
 
-	// Step #2. ソート
+	// Step #2. Sorting
 	sort(A + 1, A + N + 1);
 
-	// Step #3. クエリ処理
+	// Step #3. Binary Search
 	for (int i = 1; i <= Q; i++) {
 		int pos1 = lower_bound(A + 1, A + N + 1, B[i]) - A;
 		int Diff1 = INF, Diff2 = INF;

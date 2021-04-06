@@ -1,0 +1,34 @@
+# 入力形式
+S
+
+----------
+
+# 入力例 1
+attcoderer
+
+# 出力例 1
+6
+
+----------
+
+# 入力例 2
+aattccooddeerr
+
+# 出力例 2
+128
+
+----------
+
+# 入力例 3
+atcoderatcoderatcoderatcoderatcoderatcoderatcoderatcoderatcoder
+
+# 出力例 3
+6435
+
+----------
+
+# 入力例 4
+brckpixvbzptpfobpgwgfnovgjrruladpoapohzyqkmmaapnumhhuuaudztrgnjpwvnggnevmjisvbgoqsvwgozkkmcrydrojxrofvckrgksjnyhqfvbhawzkpddgbyiscopxnxmduanahfhzcnixkpexrcazqetinblpscyqwxkcfcbmpjekklaueoxolxiszagoruxrjewiajmczelvirqobkuiaxmaalkbckwbnbbtyixfjbgltljfdsblrlakktjbwlufsuobzhixzwbmeoethbmpmictanarheouadgjcfhlbrckyzwoqowmvmesqmfdyeomuglutqtbxztvoxtvmqyqqjgqjdkysbvtqdsurgmvctodjqspzgeyuogpadapiibqqjokrmqgiekggmfxxiwyytwyjqgkyefridarszlpazqhezlihscempkddhfhzkqataieopttyuddweukffjgdicqyobvdjnlftibaoqdvgg
+
+# 出力例 4
+99337

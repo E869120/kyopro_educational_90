@@ -6,10 +6,10 @@ long long mod = 1000000007;
 long long dp[100009][8];
 
 int main() {
-	// Step #1. “ü—Í
+	// Step #1. Input
 	cin >> S;
 
-	// Step #2. ó‘Ô DP
+	// Step #2. Dynamic Programming (DP)
 	dp[0][0] = 1;
 	for (int i = 0; i < (int)S.size(); i++) {
 		for (int j = 0; j <= 7; j++) {
@@ -25,7 +25,7 @@ int main() {
 		for (int j = 0; j <= 7; j++) dp[i + 1][j] %= mod;
 	}
 
-	// Step #3. o—Í
+	// Step #3. Output the answer
 	cout << dp[S.size()][7] << endl;
 	return 0;
 }

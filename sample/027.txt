@@ -1,0 +1,54 @@
+# 入力形式
+N
+S[1]
+S[2]
+ :
+S[N]
+
+----------
+
+# 入力例 1
+5
+e869120
+atcoder
+e869120
+square1001
+square1001
+
+# 出力例 1
+1
+2
+4
+
+----------
+
+# 入力例 2
+4
+taro
+hanako
+yuka
+takashi
+
+# 出力例 2
+1
+2
+3
+4
+
+----------
+
+# 入力例 3
+10
+square869120
+square869120
+square869120
+square869120
+square869120
+square869120
+square869120
+square869120
+square869120
+square869120
+
+# 出力例 3
+1

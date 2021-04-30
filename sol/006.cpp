@@ -2,13 +2,13 @@
 using namespace std;
 
 string S;
-int K;
+int N,K;
 int nex[100009][26];
 
 int main() {
 	// Step #1. “ü—Í
+	cin >> N >> K;
 	cin >> S;
-	cin >> K;
 
 	// Step #2. ‘OŒvZ
 	for (int i = 0; i < 26; i++) nex[S.size()][i] = S.size();

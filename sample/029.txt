@@ -1,9 +1,9 @@
 # 入力形式
-N
-lx[1] ly[1] rx[1] ry[1]
-lx[2] ly[2] rx[2] ry[2]
+W N
+l[1] r[1]
+l[2] r[2]
  :
-lx[N] ly[N] rx[N] ry[N]
+l[N] r[N]
 
 ----------
 

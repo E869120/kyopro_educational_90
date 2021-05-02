@@ -7,6 +7,8 @@ long long dp[100009][8];
 
 int main() {
 	// Step #1. Input
+	int N;
+	cin >> N;
 	cin >> S;
 
 	// Step #2. Dynamic Programming (DP)

@@ -25,12 +25,12 @@ public:
 	}
 };
 
-// “ü—Í
+// å…¥åŠ›
 int H, W, Q;
 
-// ‚»‚Ì‘¼‚Ì•Ï”
+// ãã®ä»–ã®å¤‰æ•°
 UnionFind UF;
-bool used[1009][1009];
+bool used[2009][2009];
 
 void query1(int px, int py) {
 	int dx[4] = { -1, 0, 1, 0 };
@@ -57,13 +57,13 @@ bool query2(int px, int py, int qx, int qy) {
 }
 
 int main() {
-	// Step #1. “ü—Í
+	// Step #1. å…¥åŠ›
 	cin >> H >> W >> Q;
 
-	// Step #2. Union Find ‚Ì‰Šú‰»
+	// Step #2. Union Find ã®åˆæœŸåŒ–
 	UF.init(H * W);
 
-	// Step #3. ƒNƒGƒŠˆ—
+	// Step #3. ã‚¯ã‚¨ãƒªå‡¦ç†
 	for (int i = 1; i <= Q; i++) {
 		int ty; cin >> ty;
 		if (ty == 1) {

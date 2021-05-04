@@ -5,9 +5,9 @@ using namespace std;
 
 const int INF = 2000000000;
 int N;
-int A[100009];
+int A[300009];
 int Q;
-int B[100009];
+int B[300009];
 
 int main() {
 	// Step #1. Input

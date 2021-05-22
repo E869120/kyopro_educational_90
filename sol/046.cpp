@@ -24,6 +24,6 @@ int main() {
 			}
 		}
 	}
-	cout << ans % 1000000007 << endl;
+	cout << ans << endl;
 	return 0;
 }

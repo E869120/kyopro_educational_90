@@ -8,7 +8,7 @@ T
 # 入力例 1
 5
 RGBGB
-GRGRB1 2
+GRGRB
 
 # 出力例 1
 6

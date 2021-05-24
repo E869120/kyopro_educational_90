@@ -25,10 +25,10 @@ public:
 	}
 };
 
-// å…¥åŠ›
+// “ü—Í
 int H, W, Q;
 
-// ãã®ä»–ã®å¤‰æ•°
+// ‚»‚Ì‘¼‚Ì•Ï”
 UnionFind UF;
 bool used[2009][2009];
 
@@ -57,13 +57,13 @@ bool query2(int px, int py, int qx, int qy) {
 }
 
 int main() {
-	// Step #1. å…¥åŠ›
+	// Step #1. “ü—Í
 	cin >> H >> W >> Q;
 
-	// Step #2. Union Find ã®åˆæœŸåŒ–
+	// Step #2. Union Find ‚Ì‰Šú‰»
 	UF.init(H * W);
 
-	// Step #3. ã‚¯ã‚¨ãƒªå‡¦ç†
+	// Step #3. ƒNƒGƒŠˆ—
 	for (int i = 1; i <= Q; i++) {
 		int ty; cin >> ty;
 		if (ty == 1) {

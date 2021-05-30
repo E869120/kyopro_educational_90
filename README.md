@@ -62,7 +62,7 @@
 
 <br />
 
-## テストケースについて
+## テストケースについて（2021.5.31 追記）
 解説公開後、テストケースが順次公開されていきます。リンクはこちらです。
 
 * [「競プロ典型90問」テストケース](https://www.dropbox.com/sh/nx3tnilzqz7df8a/AAC-L790bxKBVkmB6pdMUgk4a/typical90?dl=0&subfolder_nav_tracking=1)

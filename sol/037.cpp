@@ -38,11 +38,11 @@ long long dp[509][10009];
 RangeMax Z[509];
 
 int main() {
-	// Step #1. “ü—Í
+	// Step #1. å…¥åŠ›
 	cin >> W >> N;
 	for (int i = 1; i <= N; i++) cin >> L[i] >> R[i] >> V[i];
 
-	// Step #2. ‰Šú‰»
+	// Step #2. åˆæœŸåŒ–
 	for (int i = 0; i <= N; i++) {
 		for (int j = 0; j <= W; j++) dp[i][j] = -(1LL << 60);
 		Z[i].init(W + 2);
@@ -50,7 +50,7 @@ int main() {
 	dp[0][0] = 0;
 	Z[0].update(0, 0);
 
-	// Step #3. “®“IŒv‰æ–@
+	// Step #3. å‹•çš„è¨ˆç”»æ³•
 	for (int i = 1; i <= N; i++) {
 		for (int j = 0; j <= W; j++) dp[i][j] = dp[i - 1][j];
 		for (int j = 0; j <= W; j++) {
@@ -64,7 +64,7 @@ int main() {
 		for (int j = 0; j <= W; j++) Z[i].update(j, dp[i][j]);
 	}
 
-	// Step #4. o—Í
+	// Step #4. å‡ºåŠ›
 	if (dp[N][W] == -(1LL << 60)) cout << "-1" << endl;
 	else cout << dp[N][W] << endl;
 	return 0;

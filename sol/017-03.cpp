@@ -43,16 +43,16 @@ int main() {
 
 	// Step #2. Get Answer1
 	long long Answer1 = 0;
+	for (int i = 1; i <= M; i++) V3[L[i]] += 1;
+	for (int i = 1; i <= M; i++) V3[R[i]] += 1;
+	for (int i = 1; i <= N; i++) Answer1 += V3[i] * (V3[i] - 1LL) / 2LL;
+
+	// Step #3. Get Answer2
+	long long Answer2 = 0;
 	for (int i = 1; i <= M; i++) V1[R[i]] += 1;
 	for (int i = 1; i <= M; i++) V2[L[i] - 1] += 1;
 	for (int i = 1; i <= N; i++) V1[i] += V1[i - 1];
-	for (int i = 1; i <= N; i++) Answer1 += V1[i] * V2[i];
-	
-	// Step #3. Get Answer2
-	long long Answer2 = 0;
-	for (int i = 1; i <= M; i++) V3[L[i]] += 1;
-	for (int i = 1; i <= M; i++) V3[R[i]] += 1;
-	for (int i = 1; i <= N; i++) Answer2 += V3[i] * (V3[i] - 1LL) / 2LL;
+	for (int i = 1; i <= N; i++) Answer2 += V1[i] * V2[i];
 
 	// Step #4. Sorting
 	vector<pair<long long, long long>> vec;

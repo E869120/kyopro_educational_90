@@ -16,8 +16,8 @@ int main() {
 
 	// Step #2. 45 “x‰ñ“]
 	for (int i = 1; i <= N; i++) {
-		long long p1 = X[i] + Y[i];
-		long long p2 = Y[i] - X[i];
+		long long p1 = X[i] - Y[i];
+		long long p2 = X[i] + Y[i];
 		X[i] = p1;
 		Y[i] = p2;
 		min_X = min(min_X, X[i]);

@@ -1,5 +1,6 @@
 #include <deque>
 #include <iostream>
+#include <algorithm>
 using namespace std;
 const int inf = 1012345678;
 const int dx[4] = { 1, 0, -1, 0 };
